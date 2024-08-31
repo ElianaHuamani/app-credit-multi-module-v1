@@ -1,0 +1,22 @@
+
+|
+java:S1488¢"eImmediately return this expression instead of assigning it to the temporary variable "responseModel".( èÂ¬
+^
+java:S3518·"GMake sure "sumDiscountFactor" can't be zero before doing this division.(Í¡Ë·
+\	java:S1077"BConstructor has 12 parameters, which is greater than 7 authorized.(¢€ùüÿÿÿÿ
+X
+java:S1854š"<Remove this useless assignment to local variable "nextDate".(Ì›ÉÈıÿÿÿÿ
+^
+java:S1854˜"BRemove this useless assignment to local variable "discountFactor".(„æëæüÿÿÿÿ
+Z
+java:S1854À"CRemove this useless assignment to local variable "termAmountTotal".(§‚»Á
+]
+java:S1854¿"ARemove this useless assignment to local variable "itfTermAmount".(›ı©§ıÿÿÿÿ
+\
+java:S1854½"@Remove this useless assignment to local variable "amortization".(ãàºãøÿÿÿÿ
+S
+java:S1854¼"<Remove this useless assignment to local variable "interest".(ÏÁÙ–
+@
+java:S1905©")Remove this unnecessary cast to "double".(¥”ì
+Z
+java:S1854¾">Remove this useless assignment to local variable "itfAmount2".(Àé²ßùÿÿÿÿ

@@ -1,0 +1,16 @@
+com\mybank\credit\document\HolidayDocument.class
+com\mybank\credit\repository\DesgravamenMongoSpringDataRespository.class
+com\mybank\credit\mapper\DesgravamenMongoAdapterMapper.class
+com\mybank\credit\mapper\impl\DesgravamenMongoAdapterMapperImpl.class
+com\mybank\credit\mapper\impl\CampaignMongoAdapterMapperImpl.class
+com\mybank\credit\adapter\HolidayMongoAdapter.class
+com\mybank\credit\mapper\impl\HolidayMongoAdapterMapperImpl.class
+com\mybank\credit\document\DesgravamenDocument.class
+com\mybank\credit\mapper\HolidayMongoAdapterMapper.class
+com\mybank\credit\adapter\DesgravamenMongoAdapter.class
+com\mybank\credit\mapper\CampaignMongoAdapterMapper.class
+com\mybank\credit\document\CampaignDocument.class
+com\mybank\credit\adapter\CampaignMongoAdapter.class
+com\mybank\credit\repository\HolidayMongoSpringDataRespository.class
+com\mybank\credit\repository\CampaignMongoSpringDataRespository.class
+com\mybank\credit\repository\GenericMongoSpringDataRespository.class

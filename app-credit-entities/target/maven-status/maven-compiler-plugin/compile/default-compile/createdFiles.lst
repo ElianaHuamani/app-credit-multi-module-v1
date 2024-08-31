@@ -1,0 +1,7 @@
+com\mybank\credit\entities\impl\SolicitudeImpl.class
+com\mybank\credit\entities\enums\SolicitudeStatusEnum.class
+com\mybank\credit\entities\Solicitude.class
+com\mybank\credit\entities\constants\MessageEntitiesConstant.class
+com\mybank\credit\entities\factory\impl\SolicitudeFactoryImpl.class
+com\mybank\credit\entities\exceptions\SolicitudeException.class
+com\mybank\credit\entities\factory\SolicitudeFactory.class

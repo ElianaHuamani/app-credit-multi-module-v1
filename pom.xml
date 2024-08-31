@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.mybank.credit</groupId>
+  <artifactId>app-credit-multi-module-v1</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <properties>
+		<java.version>11</java.version>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <app-credit-commons-version>1.0-SNAPSHOT</app-credit-commons-version>
+        <app-credit-use-cases-version>1.0-SNAPSHOT</app-credit-use-cases-version>
+        <app-credit-controller-rest-version>1.0-SNAPSHOT</app-credit-controller-rest-version>
+        <app-credit-entities-version>1.0-SNAPSHOT</app-credit-entities-version>
+        <app-credit-gateway-sql-mysql-version>1.0-SNAPSHOT</app-credit-gateway-sql-mysql-version>
+        <app-credit-configurations-version>1.0-SNAPSHOT</app-credit-configurations-version>
+        <app-credit-presenter-version>1.0-SNAPSHOT</app-credit-presenter-version>
+        <app-credit-gateway-nosql-mongodb-version>1.0-SNAPSHOT</app-credit-gateway-nosql-mongodb-version>
+  </properties>
+  
+	<!-- sub modules -->
+    <modules>
+        <module>app-credit-controller-rest</module>
+		<module>app-credit-entities</module>
+        <module>app-credit-commons</module>
+        <module>app-credit-use-cases</module>
+        <module>app-credit-gateway-sql-mysql</module>
+        <module>app-credit-configurations</module>
+        <module>app-credit-presenter</module>
+        <module>app-credit-gateway-nosql-mongodb</module>
+    </modules>
+  
+</project>

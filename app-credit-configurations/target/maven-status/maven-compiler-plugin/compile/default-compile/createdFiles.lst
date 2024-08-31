@@ -1,0 +1,4 @@
+com\mybank\credit\configuration\GlobalConfig.class
+com\mybank\credit\configuration\AdapterWebConfig.class
+com\mybank\credit\CreditApplication.class
+com\mybank\credit\configuration\AdapterGatewayConfig.class

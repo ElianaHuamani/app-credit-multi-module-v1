@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app-credit-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-configurations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-configurations/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-controller-rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-controller-rest/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-entities/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-entities/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-gateway-nosql-mongodb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-gateway-nosql-mongodb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-gateway-sql-mysql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-gateway-sql-mysql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-presenter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-presenter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-use-cases/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-credit-use-cases/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
