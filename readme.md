@@ -10,8 +10,8 @@ This project uses clean architecture:
 
 - Generating schedules for loan applications
 - List of existing loan requests
-- List Requests by Identifier
-- RESTful API documented with Swagger/OpenAPI
+- List loan requests by its identifier
+- RESTful API documented with OpenAPI
 
 
 ## Technologies on which it is based:
@@ -41,7 +41,7 @@ This project uses clean architecture:
 
 ## API Documentation
 
-- Rest API: [app_credit_openapi.json](docs/api-docs.json).
+- Rest API: [app_credit_openapi.json](docs/app_credit_openapi.json).
 
   See on https://editor.swagger.io
 

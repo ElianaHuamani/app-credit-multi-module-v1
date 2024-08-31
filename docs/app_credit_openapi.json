@@ -1,0 +1,190 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "OpenAPI definition",
+    "version": "v0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8087/app-credit",
+      "description": "Generated server url"
+    }
+  ],
+  "paths": {
+    "/api/v1/solicitudes": {
+      "get": {
+        "tags": [
+          "solicitude-controller-impl"
+        ],
+        "operationId": "findAll",
+        "parameters": [
+          {
+            "name": "typeDocument",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "documentNumber",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "size",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "solicitude-controller-impl"
+        ],
+        "operationId": "save",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SolicitudeRestRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/solicitudes/{idSolicitude}": {
+      "get": {
+        "tags": [
+          "solicitude-controller-impl"
+        ],
+        "operationId": "findBySolicitudeId",
+        "parameters": [
+          {
+            "name": "idSolicitude",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SolicitudeRestRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "typeDocument": {
+            "type": "string"
+          },
+          "documentNumber": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "phone": {
+            "type": "string"
+          },
+          "amount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "terms": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "disbursementDate": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      },
+      "CustomResponse": {
+        "type": "object",
+        "properties": {
+          "response": {
+            "type": "object"
+          },
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "dateTime": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

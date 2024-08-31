@@ -11,7 +11,7 @@ services:
       - "mongodb_credit_data:/data/db"
   mysql:
     container_name: mysql-credit-database
-    image: mysql
+    image: mysql:8.0.33
     ports:
       - "3307:3306"
     restart: always
