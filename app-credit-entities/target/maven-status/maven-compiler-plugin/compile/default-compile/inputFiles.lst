@@ -1,7 +1,7 @@
-C:\dev\workspace\eliana-repos\ws-galaxy\proyecto-final\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\factory\impl\SolicitudeFactoryImpl.java
-C:\dev\workspace\eliana-repos\ws-galaxy\proyecto-final\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\factory\SolicitudeFactory.java
-C:\dev\workspace\eliana-repos\ws-galaxy\proyecto-final\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\constants\MessageEntitiesConstant.java
-C:\dev\workspace\eliana-repos\ws-galaxy\proyecto-final\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\Solicitude.java
-C:\dev\workspace\eliana-repos\ws-galaxy\proyecto-final\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\exceptions\SolicitudeException.java
-C:\dev\workspace\eliana-repos\ws-galaxy\proyecto-final\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\enums\SolicitudeStatusEnum.java
-C:\dev\workspace\eliana-repos\ws-galaxy\proyecto-final\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\impl\SolicitudeImpl.java
+C:\dev\workspace\eliana\ws-galaxy\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\constants\MessageEntitiesConstant.java
+C:\dev\workspace\eliana\ws-galaxy\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\enums\SolicitudeStatusEnum.java
+C:\dev\workspace\eliana\ws-galaxy\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\exceptions\SolicitudeException.java
+C:\dev\workspace\eliana\ws-galaxy\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\factory\impl\SolicitudeFactoryImpl.java
+C:\dev\workspace\eliana\ws-galaxy\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\factory\SolicitudeFactory.java
+C:\dev\workspace\eliana\ws-galaxy\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\impl\SolicitudeImpl.java
+C:\dev\workspace\eliana\ws-galaxy\app-credit-multi-module-v1\app-credit-entities\src\main\java\com\mybank\credit\entities\Solicitude.java

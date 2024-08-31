@@ -1,8 +1,8 @@
---DROP DATABASE mun;
+--DROP DATABASE credit;
 --CREATE DATABASE credit;
 --use credit
 --show tables
-
+--SHOW DATABASES
 --select schema_name as database_name
 --from information_schema.schemata
 --order by schema_name;
@@ -35,8 +35,7 @@ CREATE TABLE credit.SolicitudeDetail (
 	Interest decimal(35,2),
 	TermAmount decimal(35,2),
 	Itf decimal(35,2),
-	TermAmountTotal decimal(35,2),
-    Status varchar(2)
+	TermAmountTotal decimal(35,2)
 );
 
 

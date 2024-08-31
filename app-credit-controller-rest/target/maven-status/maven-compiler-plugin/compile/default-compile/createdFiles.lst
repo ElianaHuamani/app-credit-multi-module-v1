@@ -1,6 +1,10 @@
 com\mybank\credit\restcontroller\constants\GloblaAPIParamsConstants.class
 com\mybank\credit\restcontroller\mapper\SolicitudeRestMapper.class
 com\mybank\credit\restcontroller\commons\CustomResponse$CustomResponseBuilder.class
+com\mybank\credit\restcontroller\response\SolicitudeDetailRestResponse$SolicitudeDetailRestResponseBuilder.class
+com\mybank\credit\restcontroller\response\SolicitudeDetailRestResponse.class
+com\mybank\credit\restcontroller\mapper\SolicitudeDetailRestMapper.class
+com\mybank\credit\restcontroller\mapper\impl\SolicitudeDetailRestMapperImpl.class
 com\mybank\credit\restcontroller\mapper\impl\SolicitudeRestMapperImpl.class
 com\mybank\credit\restcontroller\response\SolicitudeRestResponse$SolicitudeRestResponseBuilder.class
 com\mybank\credit\restcontroller\request\SolicitudeRestRequest.class

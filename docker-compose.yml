@@ -1,0 +1,31 @@
+version: "3.4"
+
+services:
+  mongo:
+    container_name: mongo-credit-database
+    image: mongo
+    ports:
+      - "27018:27017"
+    restart: always
+    volumes:
+      - "mongodb_credit_data:/data/db"
+  mysql:
+    container_name: mysql-credit-database
+    image: mysql
+    ports:
+      - "3307:3306"
+    restart: always
+    volumes:
+      - "mysql_credit_data:/var/lib/mysql"
+    environment:
+      - MYSQL_ROOT_PASSWORD=creditRootPsw
+
+volumes:
+  mongodb_credit_data:
+    driver: local
+  mysql_credit_data:
+    driver: local
+
+networks:
+  credit_net:
+    external: true
