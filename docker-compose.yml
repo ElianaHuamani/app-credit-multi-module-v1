@@ -28,4 +28,4 @@ volumes:
 
 networks:
   credit_net:
-    external: true
+    driver: bridge
